@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AccpetServerBase", "AccpetServerBase\AccpetServerBase.vcxproj", "{F84130AF-7574-47C4-862C-159D13BD3B71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConnectClientBase", "ConnectClientBase\ConnectClientBase.vcxproj", "{3E9DB7A4-37DB-479C-B221-AA3C197A99FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD140C6B-9E60-4E15-A3D3-B9A59E4A18F4}"
+	ProjectSection(SolutionItems) = preProject
+		접속체크.txt = 접속체크.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{48925D65-D1DF-4163-BB85-CC75DFFDB27A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiThread", "MultiThread", "{767BAC8D-82D6-4409-91D4-78CE0A5C7905}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiThreadServer", "MultiThreadServer\MultiThreadServer.vcxproj", "{3116DA97-26EB-410D-A7E6-71D5ECB8C987}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiThreadClient", "MultiThreadClient\MultiThreadClient.vcxproj", "{22480117-6585-4ADE-922F-E98E0B423830}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F84130AF-7574-47C4-862C-159D13BD3B71}.Debug|x64.ActiveCfg = Debug|x64
+		{F84130AF-7574-47C4-862C-159D13BD3B71}.Debug|x64.Build.0 = Debug|x64
+		{F84130AF-7574-47C4-862C-159D13BD3B71}.Debug|x86.ActiveCfg = Debug|Win32
+		{F84130AF-7574-47C4-862C-159D13BD3B71}.Debug|x86.Build.0 = Debug|Win32
+		{F84130AF-7574-47C4-862C-159D13BD3B71}.Release|x64.ActiveCfg = Release|x64
+		{F84130AF-7574-47C4-862C-159D13BD3B71}.Release|x64.Build.0 = Release|x64
+		{F84130AF-7574-47C4-862C-159D13BD3B71}.Release|x86.ActiveCfg = Release|Win32
+		{F84130AF-7574-47C4-862C-159D13BD3B71}.Release|x86.Build.0 = Release|Win32
+		{3E9DB7A4-37DB-479C-B221-AA3C197A99FD}.Debug|x64.ActiveCfg = Debug|x64
+		{3E9DB7A4-37DB-479C-B221-AA3C197A99FD}.Debug|x64.Build.0 = Debug|x64
+		{3E9DB7A4-37DB-479C-B221-AA3C197A99FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E9DB7A4-37DB-479C-B221-AA3C197A99FD}.Debug|x86.Build.0 = Debug|Win32
+		{3E9DB7A4-37DB-479C-B221-AA3C197A99FD}.Release|x64.ActiveCfg = Release|x64
+		{3E9DB7A4-37DB-479C-B221-AA3C197A99FD}.Release|x64.Build.0 = Release|x64
+		{3E9DB7A4-37DB-479C-B221-AA3C197A99FD}.Release|x86.ActiveCfg = Release|Win32
+		{3E9DB7A4-37DB-479C-B221-AA3C197A99FD}.Release|x86.Build.0 = Release|Win32
+		{3116DA97-26EB-410D-A7E6-71D5ECB8C987}.Debug|x64.ActiveCfg = Debug|x64
+		{3116DA97-26EB-410D-A7E6-71D5ECB8C987}.Debug|x64.Build.0 = Debug|x64
+		{3116DA97-26EB-410D-A7E6-71D5ECB8C987}.Debug|x86.ActiveCfg = Debug|Win32
+		{3116DA97-26EB-410D-A7E6-71D5ECB8C987}.Debug|x86.Build.0 = Debug|Win32
+		{3116DA97-26EB-410D-A7E6-71D5ECB8C987}.Release|x64.ActiveCfg = Release|x64
+		{3116DA97-26EB-410D-A7E6-71D5ECB8C987}.Release|x64.Build.0 = Release|x64
+		{3116DA97-26EB-410D-A7E6-71D5ECB8C987}.Release|x86.ActiveCfg = Release|Win32
+		{3116DA97-26EB-410D-A7E6-71D5ECB8C987}.Release|x86.Build.0 = Release|Win32
+		{22480117-6585-4ADE-922F-E98E0B423830}.Debug|x64.ActiveCfg = Debug|x64
+		{22480117-6585-4ADE-922F-E98E0B423830}.Debug|x64.Build.0 = Debug|x64
+		{22480117-6585-4ADE-922F-E98E0B423830}.Debug|x86.ActiveCfg = Debug|Win32
+		{22480117-6585-4ADE-922F-E98E0B423830}.Debug|x86.Build.0 = Debug|Win32
+		{22480117-6585-4ADE-922F-E98E0B423830}.Release|x64.ActiveCfg = Release|x64
+		{22480117-6585-4ADE-922F-E98E0B423830}.Release|x64.Build.0 = Release|x64
+		{22480117-6585-4ADE-922F-E98E0B423830}.Release|x86.ActiveCfg = Release|Win32
+		{22480117-6585-4ADE-922F-E98E0B423830}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F84130AF-7574-47C4-862C-159D13BD3B71} = {48925D65-D1DF-4163-BB85-CC75DFFDB27A}
+		{3E9DB7A4-37DB-479C-B221-AA3C197A99FD} = {48925D65-D1DF-4163-BB85-CC75DFFDB27A}
+		{3116DA97-26EB-410D-A7E6-71D5ECB8C987} = {767BAC8D-82D6-4409-91D4-78CE0A5C7905}
+		{22480117-6585-4ADE-922F-E98E0B423830} = {767BAC8D-82D6-4409-91D4-78CE0A5C7905}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01D89C05-ACB9-46D4-A6F0-2591CAACCBED}
+	EndGlobalSection
+EndGlobal
